@@ -1,0 +1,33 @@
+body {
+    background-color: green;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 60px;
+}
+.card {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    margin-top: auto;
+}
+#up  {
+    margin-right: 310px;
+    margin-top: -5px;
+    font-size: 80px;
+}
+#down {
+    margin-left: 310px;
+    margin-top: 150px;
+    font-size: 80px;
+    transform: rotate(-180deg);
+}
+.number {
+    color: black;
+    font-size: 120px;
+    text-align: center;
+    margin-top: 50px;
+}
