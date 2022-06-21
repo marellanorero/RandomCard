@@ -26,6 +26,6 @@ window.onload = function() {
   document.getElementsByClassName("symbol")[0].innerHTML = symbolRandom[random];
   document.getElementsByClassName("symbol")[1].innerHTML = symbolRandom[random];
 
-  document.getElementsByClassName("number")[0].innerHTML = numberRandom[Math.floor(Math.random() * 13)];
+  document.getElementsByClassName("number")[0].innerHTML = numberRandom[Math.floor(Math.random() * numberRandom.length)];
     
 };
